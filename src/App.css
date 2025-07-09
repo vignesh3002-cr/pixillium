@@ -1,0 +1,684 @@
+#Desktop1 img{
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  left: 113px;
+  top:-66px;
+  position: relative;
+}
+#Desktop1{
+  position: relative;
+  background-image: url("../Vector.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 1023px;
+  height: 582px;
+  padding: 2rem 0;
+  left: 10%;
+}
+#Desktop1 h3{
+  position: relative;
+  width: 287px;
+  height: 24px;
+  top: 25px;
+  left: 630px;
+  font: inherit;
+  font-weight: 600;
+  size: 20px;
+  font-style: Semi Bold;
+  line-height: 100%;
+}
+#p1{
+  position: relative;
+  width: 400px;
+  height: 112px;
+  top: 4px;
+  left: 126px;
+  font:inherit;
+  font-weight:400;
+  size: 16px;
+  line-height: 28px;
+  font-style:normal;
+}
+#p2{
+  position: relative;
+  width: 400px;
+  height: 196px;
+  top: -490px;
+  left: 782px;
+}
+.container{
+  position: relative;
+}
+#Desktop2 img{
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+  left: 85px;
+  top:160px;
+  position: relative;
+}
+#Desktop2{
+  position: relative;
+  left: 10%;
+}
+#Desktop2 h3{
+  position: relative;
+  width: 449px;
+  height: 24px;
+  top: -350px;
+  left: 730px;
+  font: inherit;
+  font-weight: 600;
+  size: 20px;
+  font-style: Semi Bold;
+  line-height: 100%;
+}
+#p3{
+  position: relative;
+  width: 400px;
+  height: 252px;
+  top: -320px;
+  left: 726px;
+  font:inherit;
+  font-weight:400;
+  size: 16px;
+  line-height: 28px;
+  font-style:normal;
+}
+#Desktop3{
+  position: relative;
+  left: 10%;
+}
+#Desktop3 img{
+  width: 760px;
+  height: 600px;
+  object-fit: cover;
+  left: 655px;
+  top:-140px;
+  position: relative;
+}
+#Desktop3 h3{
+  position: relative;
+  width: 449px;
+  height: 24px;
+  top: -580px;
+  left: 190px;
+  font: inherit;
+  font-weight: 600;
+  size: 20px;
+  font-style: Semi Bold;
+  line-height: 100%;
+}
+#p4{
+  position: relative;
+  width: 400px;
+  height: 252px;
+  top: -560px;
+  left: 186px;
+  font:inherit;
+  font-weight:400;
+  size: 16px;
+  line-height: 28px;
+  font-style:normal;
+}
+#D4-1{
+  width: 86.5px;
+  height: 48.89px;
+  position: relative;
+  object-fit: cover;
+  left: 180px;
+  top: -380px;
+}
+#D4-2{
+  width: 1610.6666259765625px;
+  height: 906px;
+  object-fit: cover;
+  position: relative;
+  top: -500px;
+}
+#Desktop4 h3{
+  position: relative;
+  width: 390px;
+  height: 24px;
+  top: -1305px;
+  left: 1069px;
+  font-weight: 600;
+  size: 20px;
+  font-style: Semi Bold;
+  line-height: 100%;
+}
+#p5{
+  position: relative;
+  width: 305px;
+  height: 252px;
+  top: -1258px;
+  left: 1066px;
+  font:inherit;
+  font-weight:400;
+  size: 16px;
+  line-height: 28px;
+  font-style:normal;
+}
+#D4-3{
+  width: 124.21052551269531px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+  top: -1115px;
+  left: 1070px;
+}
+#D4-4{
+  width: 135px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+  top: -1115px;
+  left: 1085px;
+}
+#Desktop4 h1{
+  color: rgba(41, 116, 143, 1);
+  width: 345px;
+  top: -1160px;
+  left: 1066px;
+  height: 76px;
+  position: relative;
+}
+#D5-1{
+ width: 214.36272275427453px;
+ height: 233.19190114472792px;
+ position: relative;
+ object-fit: cover;
+ bottom: 945px;
+ left: 980px;
+}
+#Desktop5 h1{
+  width: 475px;
+  height: 146px;
+  position: relative;
+  color: rgba(41, 116, 143, 1);
+  font-weight: 600;
+  font-style:normal;
+  size: 60px;
+  line-height: 100%;
+  bottom: 1165px;
+  left: 277px;
+}
+#Desktop6 h2{
+  width: 208px;
+  height: 38px;
+  font-weight: 600;
+  size: 31.15px;
+  line-height: 100%;
+  color: rgba(41, 116, 143, 1);
+  position: relative;
+  bottom: 1110px;
+  left: 700px;
+}
+#D6-1{
+  border: 0.8px;
+  rotate: 9.43 deg;
+  left: 175px;
+  bottom: 1050px;
+}
+#D6-2{
+  border: 0.8px;
+  rotate: -2.26 deg;
+  bottom: 1060px;
+  left: 50px;
+}
+#D6-3{
+  border: 0.8px;
+  bottom: 1090px;
+  left: -465px;
+  height: 470px;
+}
+#D6-4{
+  border: 0.8px;
+  bottom: 1055px;
+  left: 71px;
+}
+#D6-5{
+  border: 0.72px;
+  rotate: -7.65 deg;
+  left: 995px;
+  bottom: 1545px;
+}
+.WF{
+  width: 350px;
+  height: 500px;
+  object-fit: contain;
+  position: relative;
+}
+#Desktop7 h2{
+  color: rgba(41, 116, 143, 1);
+  width: 138px;
+  height: 38px;
+  font-weight: 600;
+  font-size: 31.15px;
+  line-height: 100%;
+  position: relative;
+  left: 720px;
+  bottom: 1485px;
+}
+#D7-1{
+  bottom: 1560px;
+  left: 220px;
+}
+#D7-2{
+bottom: 1385px;
+left: 390px;
+}
+#D7-3{
+  bottom: 1560px;
+  left: 530px;
+}
+#D7-4{
+  bottom: 855px;
+  left: -570px;
+}
+#D7-5{
+  bottom: 680px;
+  left: -395px;
+}
+#D7-6{
+  bottom: 855px;
+  left: -260px;
+}
+#D7-7{
+  bottom: 715px;
+  left: 215px;
+}
+#D7-8{
+  bottom: 540px;
+  left: 390px;
+}
+#D7-9{
+  bottom: 715px;
+  left: 530px;
+}
+.DS{
+  height: 585.0176391601562px;
+  width: 262.84326171875px;
+  border: 2.64px;
+  position: relative;
+  object-fit: contain;
+  border: rgba(41, 116, 143, 1);
+}
+@media(max-width:479px){
+  #Desktop1 img{
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  left: 35px;
+  top:200px;
+  position: relative;
+}
+#Desktop1{
+  position: relative;
+  background-image: url("../Vector.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 365px;
+  height: 1145px;
+  padding: 2rem 0;
+  left: -1%;
+}
+#p1{
+  position: relative;
+  width: 345px;
+  height: 112px;
+  top: 700px;
+  left: 25px;
+  font:inherit;
+  font-weight:400;
+  font-size: 20px;
+  line-height: 35px;
+  font-style:normal;
+}
+#Desktop1 h3{
+  position: relative;
+  width: 310px;
+  height: 24px;
+  top: -141px;
+  left: 25px;
+  font: inherit;
+  font-weight: 600;
+  font-size: 22px;
+  font-style: Semi Bold;
+  line-height: 100%;
+}
+#p2{
+  position: relative;
+  width: 325px;
+  height: 196px;
+  top: -470px;
+  font-size: 20px;
+  left: 25px;
+  line-height: 35px;
+}
+#Desktop2{
+  position: relative;
+  left:-1%;
+}
+#Desktop2 img{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  left: 20px;
+  top: -235px;
+  position: relative;
+}
+#Desktop2 h3{
+  position: relative;
+  width: 300px;
+  height: 24px;
+  top: -250px;
+  left: 25px;
+  font-weight: 600;
+  font-size: 28px;
+  font-style: Semi Bold;
+  line-height: 100%;
+}
+#p3{
+  position: relative;
+  width: 300px;
+  height: 252px;
+  top: -250px;
+  left: 25px;
+  font-weight:400;
+  font-size: 20px;
+  line-height: 35px;
+  font-style:normal;
+}
+#Desktop3{
+  position: relative;
+  left: -1%;
+}
+#Desktop3 img{
+  width: 500px;
+  height: 390px;
+  object-fit: cover;
+  left: -135px;
+  top:-35px;
+  position: relative;
+}
+#Desktop3 h3{
+  position: relative;
+  width: 250px;
+  height: 24px;
+  top: 10px;
+  left: 20px;
+  font: inherit;
+  font-weight: 600;
+  font-size: 22px;
+  font-style: Semi Bold;
+  line-height: 100%;
+}
+#p4{
+  position: relative;
+  width: 350px;
+  height: 252px;
+  top: 15px;
+  left: 20px;
+  font:inherit;
+  font-weight:400;
+  font-size: 22px;
+  line-height: 35px;
+  font-style:normal;
+}
+#D4-2{
+  width: 650px;
+  height: 400px;
+  object-fit: cover;
+  position: relative;
+  top: 140px;
+  left: -30px;
+}
+#D4-1{
+  width: 40px;
+  height: 20px;
+  position: relative;
+  object-fit: cover;
+  left: 25px;
+  top: 240px;
+}
+#Desktop4 h3{
+  position: relative;
+  width: 345px;
+  height: 24px;
+  top: 140px;
+  left: 25px;
+  font-weight: 600;
+  font-size: 26px;
+  font-style: Semi Bold;
+  line-height: 32px;
+}
+#p5{
+  position: relative;
+  width: 275px;
+  height: 252px;
+  top: 215px;
+  left: 25px;
+  font:inherit;
+  font-weight:400;
+  font-size: 21px;
+  line-height: 28px;
+  font-style:normal;
+}
+#Desktop4 h1{
+  color: rgba(41, 116, 143, 1);
+  width: 350px;
+  top: 170px;
+  left: 20px;
+  height: 76px;
+  position: relative;
+  font-size: 40px;
+}
+#D4-3{
+  width: 124px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+  top: 205px;
+  left: 20px;
+}
+#D4-4{
+  width: 135px;
+  height: 40px;
+  position: relative;
+  object-fit: cover;
+  top: 205px;
+  left: 40px;
+}
+#D5-1{
+ width: 160px;
+ height: 170px;
+ position: relative;
+ object-fit: cover;
+ bottom: -285px;
+ left: 215px;
+}
+#Desktop5 h1{
+  width: 175px;
+  height: 146px;
+  position: relative;
+  color: rgba(41, 116, 143, 1);
+  font-weight: 600;
+  font-style:normal;
+  font-size: 25px;
+  line-height: 100%;
+  bottom: -136px;
+  left: 55px;
+}
+}
+@media(min-width:760px) and (max-width:992px){
+  #Desktop1{
+  position: relative;
+  background-image: url("../Vector.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 745px;
+  height: 560px;
+  padding: 2rem 0;
+  left: 0%;
+}
+#Desktop1 img{
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  left: 45px;
+  top:-100px;
+  position: relative;
+}
+#p1{
+  position: relative;
+  width: 300px;
+  height: 112px;
+  top: 3px;
+  left: 30px;
+  font:inherit;
+  font-weight:400;
+  size: 16px;
+  line-height: 28px;
+  font-style:normal;
+}
+#Desktop1 h3{
+  position: relative;
+  width: 287px;
+  height: 24px;
+  top: -1px;
+  left: 430px;
+  font: inherit;
+  font-weight: 600;
+  size: 20px;
+  font-style: Semi Bold;
+  line-height: 100%;
+}
+#p2{
+  position: relative;
+  width: 300px;
+  height: 196px;
+  top: -465px;
+  left: 430px;
+}
+#Desktop2 img{
+  width: 450px;
+  height: 450px;
+  object-fit: cover;
+  left: 15px;
+  top:-25px;
+  position: relative;
+}
+#Desktop2{
+  position: relative;
+  left: 0%;
+}
+#Desktop2 h3{
+  position: relative;
+  width: 449px;
+  height: 24px;
+  top: -405px;
+  left: 420px;
+  font: inherit;
+  font-weight: 600;
+  size: 20px;
+  font-style: Semi Bold;
+  line-height: 100%;
+}
+#p3{
+  position: relative;
+  width: 300px;
+  height: 252px;
+  top: -400px;
+  left: 420px;
+  font:inherit;
+  font-weight:400;
+  size: 16px;
+  line-height: 28px;
+  font-style:normal;
+}
+#Desktop3{
+  position: relative;
+  left: -10%;
+}
+#Desktop3 img{
+  width: 450px;
+  height: 360px;
+  object-fit: cover;
+  left: 455px;
+  top:-320px;
+  position: relative;
+}
+#Desktop4{
+  position: relative;
+  left: -10%;
+}
+#D4-2{
+  width: 1000px;
+  height: 706px;
+  object-fit: cover;
+  position: relative;
+  top: -680px;
+  left: 45px;
+}
+#D4-1{
+  width: 86.5px;
+  height: 48.89px;
+  position: relative;
+  object-fit: cover;
+  left: 115px;
+  top: -530px;
+}
+#Desktop4 h3{
+  position: relative;
+  width: 275px;
+  height: 24px;
+  top: -1280px;
+  left: 600px;
+  font-weight: 600;
+  size: 20px;
+  font-style: Semi Bold;
+  line-height: 21px;
+}
+#p5{
+  position: relative;
+  width: 205px;
+  height: 252px;
+  top: -1250px;
+  left: 600px;
+  font:inherit;
+  font-weight:400;
+  size: 16px;
+  line-height: 28px;
+  font-style:normal;
+}
+#D4-3{
+  width: 115px;
+  height: 35px;
+  position: relative;
+  object-fit: cover;
+  top: -1260px;
+  left: 580px;
+}
+#D4-4{
+  width: 120px;
+  height: 35px;
+  position: relative;
+  object-fit: cover;
+  top: -1260px;
+  left: 600px;
+}
+#Desktop4 h1{
+  color: rgba(41, 116, 143, 1);
+  width: 320px;
+  top: -1300px;
+  left: 580px;
+  height: 76px;
+  position: relative;
+  font-size: 38px;
+}
+}
