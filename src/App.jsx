@@ -1,11 +1,14 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import reactLogo from './assets/react.svg';
+import viteLogo from '/vite.svg';
+import './App.css';
+import Contacts from './components/Contacts';
+import { Contact } from 'lucide-react';
 
 function App() {
   return (
     <>
+    {/*
     <div className='container'>
       <div id='Desktop1'>
         <p id='p1'>Designed for ease and clarity, the dashboard helps both patients and doctors stay organized, track progress, and access key information instantly</p>
@@ -33,8 +36,14 @@ function App() {
         <img src='../googleplay.png' id='D4-4'></img>  
       </div>
     </div>
+    */}
+    {
+    <Contacts />
+    }
+    
     </>
+    
   )
 }
 
-export default App
+export default App;

@@ -1,40 +1,37 @@
+.container{
+  max-width: 1460px;
+  padding:0px 88px;
+}
 #Desktop1 img{
-  width: 600px;
+  max-width: 812px;
   height: 600px;
   object-fit: cover;
-  left: 113px;
-  top:-66px;
-  position: relative;
+  padding: 0px 192px;
+  margin-top: -88px;
 }
 #Desktop1{
-  position: relative;
   background-image: url("../Vector.png");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  width: 1023px;
+  max-width: 1440px;
   height: 582px;
-  padding: 2rem 0;
-  left: 10%;
+  padding: 20px 20px;
+
 }
 #Desktop1 h3{
-  position: relative;
   width: 287px;
   height: 24px;
-  top: 25px;
-  left: 630px;
   font: inherit;
   font-weight: 600;
   size: 20px;
   font-style: Semi Bold;
   line-height: 100%;
+  margin-left: 498px;
 }
 #p1{
-  position: relative;
-  width: 400px;
+  width: 352px;
   height: 112px;
-  top: 4px;
-  left: 126px;
   font:inherit;
   font-weight:400;
   size: 16px;
@@ -42,54 +39,48 @@
   font-style:normal;
 }
 #p2{
-  position: relative;
-  width: 400px;
+  max-width: 400px;
   height: 196px;
-  top: -490px;
-  left: 782px;
-}
-.container{
-  position: relative;
+  margin-left: 652px;
+  margin-top: -412px;
+
 }
 #Desktop2 img{
-  width: 600px;
+  max-width: 600px;
   height: 600px;
   object-fit: cover;
-  left: 85px;
-  top:160px;
-  position: relative;
+  margin-top: 82px;
 }
 #Desktop2{
-  position: relative;
-  left: 10%;
+  max-width: 1440px;
+  padding: 20px 20px;
+
 }
 #Desktop2 h3{
-  position: relative;
-  width: 449px;
+  
+  max-width: 449px;
   height: 24px;
-  top: -350px;
-  left: 730px;
   font: inherit;
   font-weight: 600;
   size: 20px;
   font-style: Semi Bold;
   line-height: 100%;
+  margin-top: -482px;
+  margin-left: 562px;
 }
 #p3{
-  position: relative;
-  width: 400px;
+  max-width: 400px;
   height: 252px;
-  top: -320px;
-  left: 726px;
   font:inherit;
   font-weight:400;
   size: 16px;
   line-height: 28px;
   font-style:normal;
+  margin-left: 560px;
 }
 #Desktop3{
-  position: relative;
-  left: 10%;
+  max-width: 1440px;
+  padding: 20px 20px;
 }
 #Desktop3 img{
   width: 760px;
@@ -100,28 +91,26 @@
   position: relative;
 }
 #Desktop3 h3{
-  position: relative;
   width: 449px;
   height: 24px;
-  top: -580px;
-  left: 190px;
   font: inherit;
   font-weight: 600;
   size: 20px;
   font-style: Semi Bold;
   line-height: 100%;
+  margin-left: 82px;
+  margin-top: -368px;
 }
 #p4{
-  position: relative;
-  width: 400px;
+  max-width: 348px;
   height: 252px;
-  top: -560px;
-  left: 186px;
   font:inherit;
   font-weight:400;
   size: 16px;
   line-height: 28px;
   font-style:normal;
+  margin-top: 32px;
+  margin-left: 80px;
 }
 #D4-1{
   width: 86.5px;
@@ -316,7 +305,6 @@ left: 390px;
   position: relative;
 }
 #Desktop1{
-  position: relative;
   background-image: url("../Vector.png");
   background-size: contain;
   background-position: center;
@@ -682,3 +670,341 @@ left: 390px;
   font-size: 38px;
 }
 }
+/*Contact page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.navbar {
+  background-color: white;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+}
+
+.logo {
+  height: 30px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  cursor: pointer;
+}
+
+.enquiry-btn {
+  padding: 0px 12px;
+  border: 1px solid black;
+  background:white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Main Contact Section */
+.contact-section {
+  padding: 40px 20px;
+  background: white;
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 38px;
+  max-width: 1100px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+}
+
+/* Sidebar */
+.contact-sidebar {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 20px;
+  border-radius: 6px;
+  height: 628px;
+}
+
+.contact-sidebar h4 {
+  margin-top: 20px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.contact-sidebar p, .contact-sidebar ul {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.contact-sidebar ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* Form */
+.contact-form h2 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: 600;
+
+}
+
+.contact-form p {
+  font-size: 18px;
+  margin-bottom: 30px;
+  line-height: 1.5;
+}
+
+form {
+  width: 100%;
+}
+
+.form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+input,select {
+  padding: 10px;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: 100%;
+  margin-top: 2px;
+}
+
+.submit-btn {
+  padding: 10px 50px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.selectarrow{
+  background-color:white;
+  padding: 0 5px;
+  font-size: 16px;
+}
+nav li{
+  margin-top: 5px;
+  color:rgba(57, 57, 57, 0.8);
+  transition: color 0.5s ease;
+}
+input:hover{
+  border: black 2px solid;
+}
+select:hover{
+  border: black 2px solid;
+}
+li:hover{
+  color: #1a1a1a;
+}
+@media (min-width:830px) and (max-width:1260px){
+ .contact-form h2{
+  font-size: 36px;
+ }
+ .contact-form p {
+    font-size: 16px;
+}
+.tabler_menu{
+  display: none;
+}
+.selectarrow:hover .contact-section{
+  position: relative;
+}
+
+.service_container{
+  max-width:1260px ;
+  
+}
+.service_content{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #FFFFFF;
+  color:rgba(57, 57, 57, 0.6);
+  padding: 30px;
+  max-width: 1400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 100;
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+}
+}
+@media(min-width:1261px) and (max-width:1500px){
+  .tabler_menu{
+    display: none;
+  }
+  .selectarrow:hover .contact-section{
+  position: relative;
+}
+.service_content{
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background-color: #f5f5f5;
+  color:rgba(57, 57, 57, 0.6);
+  padding: 30px;
+  max-width: 1400px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 30px;
+  cursor: pointer;
+}
+.service_domains{
+  display: flex;
+  flex-direction: column(1fr 1fr);
+  row-gap: 20px;
+  column-gap: 30px;
+
+}
+}
+@media (min-width:320px) and (max-width:830px){
+  .nav-links li {
+    display: none;
+  }
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-sidebar{
+    order: 2;
+  }
+  .contact-form{
+    order: 1;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .contact-form h2 {
+    font-size: 24px;
+}
+.contact-form p {
+    font-size: 14px;
+}
+.tabler_menu{
+  width: 32px;
+  height: 32px;
+}
+.mobile_menu::after .contact-section{
+  position: relative;
+  z-index: 2;
+}
+.mobile_menu{
+  position: absolute;
+  top: 48px;
+  z-index: 1;
+  width: 830px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 232px;
+  background-color: white;
+  padding: 20px;
+}
+.mobile_menu li{
+  padding: 10px;
+  max-width: 255px;
+}
+.mobile_Container{
+  cursor: pointer;
+}
+.mobile_menu button{
+  max-width: 231px;
+  padding: 5px;
+  
+}
+
+
+}
+.service_content1{
+  padding: 10px 10px;
+  text-align: center;
+}
+.services{
+  padding: 10px 0px;
+}
+.services p{
+  margin-top: 5px;
+  max-width: 309px;
+}
+
+.service_content{
+  max-width:1700px;
+  padding:20px 82px;
+}
+.service_content1 h2{
+  max-width: 360px;
+  height: 68px;
+  font-weight: 600;
+  font-size: 28px;
+  margin-left: 54px;
+  transition:opacity 0.3s ease;
+
+}
+.domain:hover{
+  color: #1a1a1a;
+}
+.domain h5{
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0%;
+  line-height: 150%;
+}
+.domain p{
+font-weight: 400;
+font-size: 16px;
+}
+.tabler_menu{
+  cursor: pointer;
+}
+.service_ul{
+  font-size: 14px;
+  margin-top: 5px;
+  color: #393939CC;
+}
+.enquiry-btn:hover{
+  background-color: #1a1a1a;
+  color: white;
+}
+.tabler_menu_cancel{
+  cursor: pointer;
+}
+.fade-in{
+  opacity: 1;
+}
+.fade-out{
+  opacity: 0;
+}
+.text-fade{
+  transition:opacity 0.5s ease;
+}
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  margin-left: 4px;
+}
+
+.rotate-up {
+  transform: rotate(180deg);
+}
+/*          <select name="service" className="selectarrow" style={{border:"none"}}>
+        
+          </select> */
