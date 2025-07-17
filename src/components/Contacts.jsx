@@ -22,54 +22,57 @@ function Contacts(){
       <img src="../Group.png" alt="Logo" class="logo" />
     </div>
     <nav>
-      <ul class="nav-links">
-        <li>About</li>
+      <div class="nav-links">
+        <div>About</div>
         <div onMouseEnter={()=>setService(true)} onMouseLeave={()=>setService(false)}>
-          <li style={{color:isService?"black":"rgba(57, 57, 57, 0.8)"}}>
+          <div className="nav-service" style={{color:isService?"black":"rgba(57, 57, 57, 0.8)"}}>
              Service 
-          </li>
+             <div className={`arrow-icon ${isService? 'rotate-up' : ''}`}><span ><img src="../dw_arrow.png"></img></span></div>
+          </div>
             
-  {isService && (
-    <div className="service_container" onMouseEnter={()=>setService(true)} onMouseLeave={()=>setService(false)}>
-      <div className="service_content">
-        <div className="service_content1" >
-          <h2 style={{color:"black"}} className={`text-fade ${isfade?'fade-out':'fade-in'}`}>{text}</h2>
-          <img src=""/>
+          {isService && (
+            <div className="service_container" onMouseEnter={()=>setService(true)} onMouseLeave={()=>setService(false)}>
+              <div className="service_content">
+                <div className="service_content1" >
+                  <h2 style={{color:"black"}} className={`text-fade ${isfade?'fade-out':'fade-in'}`}>{text}</h2>
+                  <img src=""/>
+                </div>
+                <div className="service_domains">
+                  <div className="service_content2 services">
+                    <div className="s1 domain" onMouseEnter={()=>onHoverService("We deliver seamless digital experiences")} onMouseLeave={onMouseRemove}>
+                      <h5>Design & Development</h5>
+                      <p>Building modern websites & platforms with clean code & seamless integration</p>
+                    </div>
+                    <div style={{marginTop:"40px"}} className="s2 domain" onMouseEnter={()=>onHoverService("We craft story & emotion  that customers connect")} onMouseLeave={onMouseRemove}>
+                      <h5>Branding</h5>
+                      <p>Creating lasting brand identities and impactful designs</p>
+                    </div>
+                  </div>
+                  <div className="service_content3 services">
+                    <div className="s3 domain" onMouseEnter={()=>onHoverService("Marketing That Moves Your Brand Forward")} onMouseLeave={onMouseRemove}>
+                      <h5>Digital Marketing</h5>
+                      <p>Our stratergic approach makes your brand reach audience</p>
+                    </div>
+                    <div style={{marginTop:"40px"}} className="s4 domain" onMouseEnter={()=>onHoverService("end-to-end cybersecurity solutions")} onMouseLeave={onMouseRemove}>
+                     <h5>Cyber Security</h5>
+                     <p>Ensuring that your digital presence is safe, secure, and protected</p>
+                    </div>
+                  </div>
+                </div>
+             </div>
+           </div>
+          )}
         </div>
-        <div className="service_domains">
-          <div className="service_content2 services">
-            <div className="s1 domain" onMouseEnter={()=>onHoverService("We deliver seamless digital experiences")} onMouseLeave={onMouseRemove}>
-              <h5>Design & Development</h5>
-              <p>Building modern websites & platforms with clean code & seamless integration</p>
-            </div>
-            <div style={{marginTop:"40px"}} className="s2 domain" onMouseEnter={()=>onHoverService("We craft story & emotion  that customers connect")} onMouseLeave={onMouseRemove}>
-              <h5>Branding</h5>
-              <p>Creating lasting brand identities and impactful designs</p>
-            </div>
-          </div>
-          <div className="service_content3 services">
-            <div className="s3 domain" onMouseEnter={()=>onHoverService("Marketing That Moves Your Brand Forward")} onMouseLeave={onMouseRemove}>
-              <h5>Digital Marketing</h5>
-              <p>Our stratergic approach makes your brand reach audience</p>
-            </div>
-            <div style={{marginTop:"40px"}} className="s4 domain" onMouseEnter={()=>onHoverService("end-to-end cybersecurity solutions")} onMouseLeave={onMouseRemove}>
-              <h5>Cyber Security</h5>
-              <p>Ensuring that your digital presence is safe, secure, and protected</p>
-            </div>
-          </div>
-          </div>
-      </div>
-    </div>
-  )}
+        <div>Case Studies</div>
+        <div>Contact Us</div>
+        <div className="nav-button">
+          <button class="enquiry-btn">Enquiry</button>
+          {ismobile_menu? (<div className="drop-cancel" onClick={()=>setMobileMenu(false)}><img src="../cancel.png" className="tabler_menu_cancel" /></div>):(<div className="drop-cancel" onClick={()=>setMobileMenu(true)}><img src="../tabler_menu.svg
+          " className="tabler_menu"  /></div>) }
         </div>
-        <span className={`arrow-icon ${isService? 'rotate-up' : ''}`}><img src="../dw_arrow.png"></img></span>
-        <li>Case Studies</li>
-        <li>Contact Us</li>
-      </ul>
-      <div>
-        <button class="enquiry-btn">Enquiry</button>
-        {ismobile_menu? (<div className="drop-cancel" onClick={()=>setMobileMenu(false)}><img src="../cancel.png" className="tabler_menu_cancel" /></div>):(<div className="drop-cancel" onClick={()=>setMobileMenu(true)}><img src="../tabler_menu.png" className="tabler_menu"  /></div>) }
+        
       </div>
+
     </nav>
   </header>
 
@@ -171,24 +174,28 @@ function Contacts(){
       </div>
     </div>
   )*/}
+  
   {ismobile_menu && (
     <div className="mobile_Container" onMouseLeave={()=>setMobileMenu(false)}>
       <div className="mobile_menu">
-        <ul>
-          <li>About</li>
-          <hr></hr>
-          <li>Case Studies</li>
-          <hr></hr>
-          <li>Services</li>
-          <ul className="service_ul">
-            <li>Digital Marketing</li>
-            <li>Design & Development</li>
-            <li>Branding & Identity</li>
-            <li>Cyber Security</li>
+        <div>
+          <ul>
+            <li>About</li>
+            <hr></hr>
+            <li>Case Studies</li>
+            <hr></hr>
+            <li>Services</li>
+            <ul className="service_ul">
+              <li>Digital Marketing</li>
+              <li>Design & Development</li>
+              <li>Branding & Identity</li>
+              <li>Cyber Security</li>
+            </ul>
           </ul>
-
-        </ul>
-        <button class="enquiry-btn">Enquiry</button>
+        </div>
+        <div class="mobile-enquiry-btn">
+          <button >Enquiry</button>
+        </div>
       </div>
     </div>
   )

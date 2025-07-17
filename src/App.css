@@ -682,14 +682,14 @@ body {
   background-color: #fff;
   color: #333;
 }
-
+/*nav bar styling*/
 .navbar {
   background-color: white;
   padding: 10px 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
+  max-width: 1920px;
   position: fixed;
   z-index: 999;
   top: 0;
@@ -711,6 +711,15 @@ body {
   gap: 30px;
   cursor: pointer;
 }
+.arrow-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+  position: relative;
+  top: 3px;
+  left: 2px;
+
+}
+
 .service-wrapper{
   position: relative;
   display: inline-block;
@@ -721,7 +730,9 @@ body {
   background:white;
   cursor: pointer;
   border-radius: 5px;
-  margin-left: 30px;
+  line-height: normal;
+  margin: 0;
+  vertical-align: middle;
 }
 
 /* Main Contact Section */
@@ -816,8 +827,7 @@ input,select {
   padding: 0 5px;
   font-size: 16px;
 }
-nav li{
-  margin-top: 5px;
+nav div{
   color:rgba(57, 57, 57, 0.8);
   transition: color 0.5s ease;
 }
@@ -827,12 +837,13 @@ input:hover{
 select:hover{
   border: black 2px solid;
 }
-.nav-links li:hover{
+.nav-links div:hover{
   color: #1a1a1a;
 }
 .contact-sidebar li {
   padding: 5px 0px;
 }
+
 @media (min-width:830px) and (max-width:1260px){
  .contact-form h2{
   font-size: 36px;
@@ -910,7 +921,7 @@ select:hover{
 
 }
 @media (min-width:0px) and (max-width:830px){
-  .nav-links li {
+  .nav-links div:not(:last-child) {
     display: none;
   }
   .mobile-drop{
@@ -941,24 +952,41 @@ select:hover{
     font-size: 14px;
 }
 .tabler_menu{
-  width: 14px;
-  height: 14px;
+  width: 28px;
+  height: 28px;
 }
 .mobile_menu::after .contact-section{
   position: relative;
-  z-index: 2;
+  z-index: 0;
 }
 .mobile_menu{
   position: absolute;
-  top: 48px;
+  top: 64px;
   z-index: 1;
-  width: 830px;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  row-gap: 232px;
   background-color: white;
   padding: 20px;
+  height: 548px;
+  justify-content: space-between;
 }
+.mobile-enquiry-btn{
+max-width: 830px;
+padding: 20px;
+}
+.mobile-enquiry-btn button{
+  width: 100%;
+ 
+  font-weight: 500;
+  border-radius: 10px;
+  border: 1px black solid;
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 14px;
+}
+
+
 .mobile_menu li{
   padding: 10px;
   max-width: 255px;
@@ -966,10 +994,11 @@ select:hover{
 .mobile_Container{
   cursor: pointer;
 }
-.mobile_menu button{
-  max-width: 231px;
-  padding: 5px;
-  
+
+.tabler_menu_cancel{
+  cursor: pointer;
+  width: 22px;
+  height: 22px;
 }
 .contact-sidebar {
     height: 516px;
@@ -1032,11 +1061,6 @@ button:hover{
   background-color: #1a1a1a;
   color: white;
 }
-.tabler_menu_cancel{
-  cursor: pointer;
-  width: 14px;
-  height: 14px;
-}
 .fade-in{
   opacity: 1;
 }
@@ -1046,17 +1070,11 @@ button:hover{
 .text-fade{
   transition:opacity 0.5s ease;
 }
-.arrow-icon {
-  display: inline-block;
-  transition: transform 0.3s ease;
-  margin-left:-28px;
-  margin-top: 9px;
 
-}
 
 .rotate-up {
   transform: rotate(180deg);
-  margin-bottom: 12px;
+ 
   transition: transform 0.5s ease;
 }
 button{
