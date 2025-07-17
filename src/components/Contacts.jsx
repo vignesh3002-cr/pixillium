@@ -21,7 +21,7 @@ function Contacts(){
     <div class="cm-logo">
       <img src="../Group.png" alt="Logo" class="logo" />
     </div>
-    <nav>
+    <nav className="nav-container">
       <div class="nav-links">
         <div>About</div>
         <div onMouseEnter={()=>setService(true)} onMouseLeave={()=>setService(false)}>
@@ -67,7 +67,34 @@ function Contacts(){
         <div>Contact Us</div>
         <div className="nav-button">
           <button class="enquiry-btn">Enquiry</button>
-          {ismobile_menu? (<div className="drop-cancel" onClick={()=>setMobileMenu(false)}><img src="../cancel.png" className="tabler_menu_cancel" /></div>):(<div className="drop-cancel" onClick={()=>setMobileMenu(true)}><img src="../tabler_menu.svg
+          {ismobile_menu? (<nav className="drop-cancel" onClick={()=>setMobileMenu(false)}><img src="../cancel.png" className="tabler_menu_cancel" />
+            
+  {ismobile_menu && (
+    <div className="mobile_Container" onMouseLeave={()=>setMobileMenu(false)}>
+      <div className="mobile_menu">
+        <nav>
+          <ul>
+            <li>About</li>
+            <hr></hr>
+            <li>Case Studies</li>
+            <hr></hr>
+            <li>Services</li>
+            <ul className="service_ul">
+              <li>Digital Marketing</li>
+              <li>Design & Development</li>
+              <li>Branding & Identity</li>
+              <li>Cyber Security</li>
+            </ul>
+          </ul>
+        </nav>
+        <div class="mobile-enquiry-btn">
+          <button >Enquiry</button>
+        </div>
+      </div>
+    </div>
+  )
+  } 
+  </nav>):(<div className="drop-cancel" onClick={()=>setMobileMenu(true)}><img src="../tabler_menu.svg
           " className="tabler_menu"  /></div>) }
         </div>
         
@@ -174,32 +201,7 @@ function Contacts(){
       </div>
     </div>
   )*/}
-  
-  {ismobile_menu && (
-    <div className="mobile_Container" onMouseLeave={()=>setMobileMenu(false)}>
-      <div className="mobile_menu">
-        <div>
-          <ul>
-            <li>About</li>
-            <hr></hr>
-            <li>Case Studies</li>
-            <hr></hr>
-            <li>Services</li>
-            <ul className="service_ul">
-              <li>Digital Marketing</li>
-              <li>Design & Development</li>
-              <li>Branding & Identity</li>
-              <li>Cyber Security</li>
-            </ul>
-          </ul>
-        </div>
-        <div class="mobile-enquiry-btn">
-          <button >Enquiry</button>
-        </div>
-      </div>
-    </div>
-  )
-  }  
+ 
     </>
     
 

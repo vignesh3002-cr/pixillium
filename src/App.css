@@ -758,8 +758,8 @@ body {
   color: white;
   padding: 20px;
   border-radius: 6px;
-  height: 582px;
-  max-width: 272px;
+  max-height: 582px;
+  
 }
 
 .contact-sidebar h4 {
@@ -962,6 +962,7 @@ select:hover{
 .mobile_menu{
   position: absolute;
   top: 64px;
+  left: 0;
   z-index: 1;
   width: 100%;
   display: flex;
@@ -977,13 +978,14 @@ padding: 20px;
 }
 .mobile-enquiry-btn button{
   width: 100%;
- 
+  background-color: #1C1C1C;
   font-weight: 500;
   border-radius: 10px;
   border: 1px black solid;
   text-align: center;
   padding: 10px 20px;
   font-size: 14px;
+  color: #ccc;
 }
 
 
@@ -997,8 +999,8 @@ padding: 20px;
 
 .tabler_menu_cancel{
   cursor: pointer;
-  width: 22px;
-  height: 22px;
+  width: 20px;
+  height: 20px;
 }
 .contact-sidebar {
     height: 516px;
@@ -1080,7 +1082,7 @@ button:hover{
 button{
   transition:color 0.5s ease;
 }
-nav{
+.nav-container{
   display: flex;
 }
 
