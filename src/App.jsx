@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import Contacts from './components/Contacts';
+import Footer from './components/Footer';
 import { Contact } from 'lucide-react';
 
 function App() {
@@ -39,7 +40,9 @@ function App() {
     */}
     {
     <Contacts />
+    
     }
+    <Footer />
     
     </>
     
