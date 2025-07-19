@@ -742,10 +742,7 @@ body {
 }
 
 .contact-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 38px;
-  max-width: 1100px;
+  max-width: 745px;
   margin: auto;
   background: white;
   padding: 30px;
@@ -753,30 +750,11 @@ body {
 }
 
 /* Sidebar */
-.contact-sidebar {
-  background-color: #1a1a1a;
-  color: white;
-  padding: 20px;
-  border-radius: 6px;
-  max-height: 582px;
-  
-}
 
-.contact-sidebar h4 {
-  margin-top: 20px;
-  font-size: 14px;
-  font-weight: bold;
-}
 
-.contact-sidebar p, .contact-sidebar ul {
-  font-size: 14px;
-  margin-top: 10px;
-}
 
-.contact-sidebar ul {
-  list-style: none;
-  padding-left: 0;
-}
+
+
 
 /* Form */
 .contact-form h2 {
@@ -787,9 +765,13 @@ body {
 }
 
 .contact-form p {
-  font-size: 18px;
-  margin-bottom: 30px;
-  line-height: 1.5;
+  font-size: 20px;
+  margin-bottom: 61px;
+  max-width: 692px;
+  font-weight: 400px;
+  margin-top: 28px;
+  letter-spacing: 0;
+  line-height: 150%;
 }
 
 form {
@@ -820,7 +802,7 @@ input,select {
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  margin-top: 24px;
+  margin-top: 38px;
 }
 .selectarrow{
   background-color:white;
@@ -844,12 +826,17 @@ select:hover{
   padding: 5px 0px;
 }
 
-@media (min-width:830px) and (max-width:1260px){
+.contact-sidebar{
+  display: none;
+}
+@media (min-width:830px) and (max-width:1030px){
  .contact-form h2{
   font-size: 36px;
+  text-align: center;
  }
  .contact-form p {
     font-size: 16px;
+    text-align: center;
 }
 .tabler_menu{
   display: none;
@@ -885,7 +872,7 @@ select:hover{
   align-items: center;
 }
 }
-@media(min-width:1261px) and (max-width:1920px){
+@media(min-width:1031px) and (max-width:1920px){
   .tabler_menu{
     display: none;
   }
@@ -1146,11 +1133,11 @@ button{
 
 .footer-bottom {
   display: flex;
-  flex-direction: column;
+  
   align-items: center;
   justify-content: center;
   text-align: center;
-  column-gap: 80px;
+
   max-width: 1920px;
 }
 
@@ -1165,8 +1152,8 @@ button{
   display: flex;
   position: relative;
   gap: 15px;
-  left: 44%;
-  margin-bottom: 20px;
+  left: 30%;
+  margin-bottom: 15px;
 }
 
 .social-icons a {
@@ -1200,9 +1187,7 @@ button{
 }
 
 @media(min-width:1031px) and (max-width:1920px){
-.footer-bottom p{
-  position: fixed;
-}
+
 }
 
 @media (min-width:830px) and (max-width:1030px){
@@ -1212,9 +1197,7 @@ button{
 .footer-up h1{
     font-size: 24px;
   }
-.footer-bottom p{
-  position: fixed;
-}
+
 }
 @media (min-width:320px) and (max-width:829px){
 .footer-up img {
@@ -1234,7 +1217,9 @@ button{
 .footer-grid{
     grid-template-columns: repeat(1, 1fr);
 }
-
+.footer-bottom {
+  flex-direction: column;
+}
 
 .social-icons{
   order: 1;

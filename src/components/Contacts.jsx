@@ -105,23 +105,6 @@ function Contacts(){
 
   <main class="contact-section" onClick={()=>setMobileMenu(false)} >
     <div class="contact-wrapper">
-  
-      <div class="contact-sidebar">
-        <h4>CALL US AT</h4>
-        <p>7339100395</p>
-        <h4>MAIL TO</h4>
-        <p>info@pixellium.co</p>
-        <h4>LOCATION</h4>
-        <p>No:5, 5th Floor, Workfella, <br></br>Teynampet - 600034</p>
-        <h4>OUR SERVICES</h4>
-        <ul>
-          <li>Digital Marketing</li>
-          <li>Design & Development</li>
-          <li>Branding & Identity</li>
-          <li>Cybersecurity</li>
-        </ul>
-      </div>
-
       <div class="contact-form">
         <h2>We Love To Hear From You</h2>
         <p>

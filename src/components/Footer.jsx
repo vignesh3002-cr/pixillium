@@ -3,6 +3,7 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from 'react-icons/fa';
 
 export default function Footer() {
   return (
+    
     <footer className="footer">
      <div className='footer-up'>
         <video className="responsive-video" autoPlay muted loop>
