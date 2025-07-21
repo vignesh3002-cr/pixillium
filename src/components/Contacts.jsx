@@ -5,7 +5,7 @@ function Contacts(){
   const[isService,setService]=useState(false);
   const[ismobile_menu,setMobileMenu]=useState(false);
   const[text,setText]=useState("We deliver seamless Service experiences");
-  const[isfade,setFade]=useState(false)
+  const[isfade,setFade]=useState(false);
   const onMouseRemove=()=>setText("We deliver seamless Service experiences");
   const onHoverService=(txt)=>{
     setFade(true);
@@ -23,15 +23,14 @@ function Contacts(){
     </div>
     <nav className="nav-container">
       <div class="nav-links">
-        <div>About</div>
-        <div onMouseEnter={()=>setService(true)} onMouseLeave={()=>setService(false)}>
+        <div className="nav-child">About</div>
+        <div className="nav-service-container nav-child" onMouseEnter={()=>setService(true)}  onMouseLeave={()=>setService(false)}>
           <div className="nav-service" style={{color:isService?"black":"rgba(57, 57, 57, 0.8)"}}>
              Service 
              <div className={`arrow-icon ${isService? 'rotate-up' : ''}`}><span ><img src="../dw_arrow.png"></img></span></div>
-          </div>
-            
+                        
           {isService && (
-            <div className="service_container" onMouseEnter={()=>setService(true)} onMouseLeave={()=>setService(false)}>
+            <div className="service_container">
               <div className="service_content">
                 <div className="service_content1" >
                   <h2 style={{color:"black"}} className={`text-fade ${isfade?'fade-out':'fade-in'}`}>{text}</h2>
@@ -62,11 +61,27 @@ function Contacts(){
              </div>
            </div>
           )}
+          </div> 
+ 
         </div>
-        <div>Case Studies</div>
-        <div>Contact Us</div>
-        <div className="nav-button">
-          <button class="enquiry-btn">Enquiry</button>
+        <div className="nav-child">Case Studies</div>
+        <div className="nav-child">Contact Us</div>
+          
+      </div>
+
+    </nav>
+          
+        <div className="nav-button nav-child-button">
+
+          <div class="enquiry-btn">
+
+            <div><button>Get in touch</button></div>
+            <div className="circle">
+
+            </div>
+          
+            <span className="right-arrow"><img src="../right-arrow.png" /></span>
+          </div>
           {ismobile_menu? (<nav className="drop-cancel" ><img src="../cancel.png" className="tabler_menu_cancel" onClick={()=>setMobileMenu(false)} />
             
   {ismobile_menu && (
@@ -87,9 +102,17 @@ function Contacts(){
             </ul>
           </ul>
         </nav>
-        <div class="mobile-enquiry-btn">
-          <button >Enquiry</button>
-        </div>
+         <div className="mobile-button"> 
+          <div class="mobile-enquiry-btn">
+
+            <div><button>Get in touch</button></div>
+            <div className="circle">
+
+            </div>
+          
+            <span className="right-arrow"><img src="../right-arrow.png" /></span>
+          </div>
+          </div>
       </div>
     </div>
   )
@@ -97,10 +120,7 @@ function Contacts(){
   </nav>):(<div className="drop-cancel" onClick={()=>setMobileMenu(true)}><img src="../tabler_menu.svg
           " className="tabler_menu"  /></div>) }
         </div>
-        
-      </div>
 
-    </nav>
   </header>
 
   <main class="contact-section" onClick={()=>setMobileMenu(false)} >

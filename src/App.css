@@ -685,10 +685,10 @@ body {
 /*nav bar styling*/
 .navbar {
   background-color: white;
-  padding: 10px 30px;
+  padding: 20px 30px;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: end;
   max-width: 1920px;
   position: fixed;
   z-index: 999;
@@ -704,6 +704,9 @@ body {
 }
 .cm-logo {
   padding: 15px;
+  left: 20px;
+  position: fixed;
+  margin-bottom: 12px;
 }
 .nav-links {
   list-style: none;
@@ -713,28 +716,70 @@ body {
 }
 .arrow-icon {
   display: inline-block;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease;
   position: relative;
   top: 3px;
   left: 2px;
-
 }
-
+.service_container{
+  margin-top: 10px;
+}
+.nav-button{
+  margin-left: 30px;
+  padding-bottom: 12px;
+}
 .service-wrapper{
   position: relative;
   display: inline-block;
 }
 .enquiry-btn {
-  padding: 5px 12px;
-  border: 1px solid black;
-  background:white;
+
+  border: 1px solid #393939;
+  background-color:#393939;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 1000px;
   line-height: normal;
   margin: 0;
   vertical-align: middle;
+  position: relative;
+  transition: background-color 0.5s ease;
+  height: 39px;
 }
-
+ .enquiry-btn button{
+  color: white;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 14px;
+  padding-right: 46px;
+  height: 24px;
+  margin-top: 2px;
+ }
+ .circle{
+  background-color: white;
+  position: absolute;
+  border-radius: 1000px;
+  height: 33px;
+  width: 33px;
+  top: 2px;
+  left: 112px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+ }
+ .right-arrow{
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  left: 122px;
+  top: 13.2px;
+  transition: transform 0.5s ease;
+ }
+ .enquiry-btn:hover .right-arrow{
+  transform: rotate(-30deg);
+ }
+ .enquiry-btn:hover{
+  background-color: #121316;
+ }
 /* Main Contact Section */
 .contact-section {
   padding: 10px 20px;
@@ -761,6 +806,7 @@ body {
   font-size: 48px;
   margin-bottom: 10px;
   font-weight: 600;
+  font-family: Hedvig Letters Serif;
 
 }
 
@@ -809,9 +855,10 @@ input,select {
   padding: 0 5px;
   font-size: 16px;
 }
-nav div{
+.nav-child{
   color:rgba(57, 57, 57, 0.8);
   transition: color 0.5s ease;
+  padding-bottom: 12px ;
 }
 input:hover{
   border: black 2px solid;
@@ -819,7 +866,7 @@ input:hover{
 select:hover{
   border: black 2px solid;
 }
-.nav-links div:hover{
+.nav-child:hover{
   color: #1a1a1a;
 }
 .contact-sidebar li {
@@ -833,6 +880,7 @@ select:hover{
  .contact-form h2{
   font-size: 36px;
   text-align: center;
+  font-family: Hedvig Letters Serif;
  }
  .contact-form p {
     font-size: 16px;
@@ -881,6 +929,7 @@ select:hover{
 }
 .service_container{
   max-width:1920px ;
+  margin: 0;
 }
 .service_content{
   position: absolute;
@@ -888,7 +937,7 @@ select:hover{
   left: 0;
   background-color: #f5f5f5;
   color:rgba(57, 57, 57, 0.6);
-  padding: 30px;
+  padding:30px ;
   max-width: 1400px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   border-radius: 8px;
@@ -896,7 +945,7 @@ select:hover{
   grid-template-columns: repeat(2,1fr);
   gap: 30px;
   cursor: pointer;
-  z-index: 100;
+  z-index: 1000;
 }
 .service_domains{
   display: flex;
@@ -908,14 +957,14 @@ select:hover{
 
 }
 @media (min-width:0px) and (max-width:830px){
-  .nav-links div:not(:last-child) {
+  .nav-links div{
     display: none;
   }
   .mobile-drop{
     position: relative;
   }
   .drop-cancel{
-    padding: 9px;
+    padding: 4px;
     cursor: pointer;
   }
 
@@ -934,13 +983,14 @@ select:hover{
   }
   .contact-form h2 {
     font-size: 24px;
+    font-family: Hedvig Letters Serif;
 }
 .contact-form p {
     font-size: 14px;
 }
 .tabler_menu{
-  width: 28px;
-  height: 28px;
+  width: 20px;
+  height: 20px;
 }
 .mobile_menu::after .contact-section{
   position: relative;
@@ -960,21 +1010,55 @@ select:hover{
   justify-content: space-between;
 }
 .mobile-enquiry-btn{
-max-width: 830px;
-padding: 20px;
+  max-width: 830px;
+  padding: 20px;
+  border: 1px solid black;
+  background:#393939;
+  cursor: pointer;
+  border-radius: 1000px;
+  line-height: normal;
+  margin: 0;
+  vertical-align: middle;
+  position: relative;
+  height: 39px;
 }
 .mobile-enquiry-btn button{
   width: 100%;
-  background-color: #1C1C1C;
+  position: absolute; 
   font-weight: 500;
   border-radius: 10px;
-  border: 1px black solid;
-  text-align: center;
-  padding: 10px 20px;
-  font-size: 14px;
-  color: #ccc;
+  font-size: 20px;
+  color: white;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  padding-left: 14px;
+  padding-right: 46px;
+  bottom: 0px;
+  right: 88px;
 }
-
+.circle{
+  background-color: white;
+  position: absolute;
+  border-radius: 1000px;
+  height: 34px;
+  width: 34px;
+  top: 3px;
+  left: 316px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-right: 3px;
+}
+.right-arrow{
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  left: 326px;
+  top: 14px;
+  transition: transform 0.5s ease;
+}
+.mobile-button{
+  padding: 10px;
+}
 
 .mobile_menu li{
   padding: 10px;
@@ -999,6 +1083,12 @@ padding: 20px;
 .arrow-icon img{ 
   display: none;
 }
+.mobile-enquiry-btn:hover .right-arrow{
+  transform: rotate(-30deg);
+}
+.mobile-enquiry-btn:hover{
+  background-color:#121316 ;
+}
 }
 .service_content1{
   padding: 10px 10px;
@@ -1015,6 +1105,7 @@ padding: 20px;
 .service_content{
   max-width:1700px;
   padding:30px 82px;
+  margin-top: 10px;
 }
 .service_content1 h2{
   max-width: 360px;
@@ -1046,7 +1137,7 @@ font-size: 16px;
   margin-top: 5px;
   color: #393939CC;
 }
-button:hover{
+.submit-btn:hover{
   background-color: #1a1a1a;
   color: white;
 }
@@ -1081,10 +1172,10 @@ button{
 }
 
 .footer-grid {
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
+  display: flex;
+  justify-content: center;
   gap: 30px;
-  max-width: 756px;
+  max-width: 1920px;
   margin-top: 52px;
 }
 .responsive-video {
@@ -1187,19 +1278,24 @@ button{
 }
 
 @media(min-width:1031px) and (max-width:1920px){
-
+  .footer-grid{
+    gap:168px ;
+  }
 }
 
 @media (min-width:830px) and (max-width:1030px){
   .footer-up img {
     width: 430px;
 }
+  .footer-grid{
+    gap:80px;
+  }
 .footer-up h1{
     font-size: 24px;
   }
 
 }
-@media (min-width:320px) and (max-width:829px){
+@media (min-width:0px) and (max-width:829px){
 .footer-up img {
     width: 272px;
 }
@@ -1215,7 +1311,8 @@ button{
     gap: 42px;
 }
 .footer-grid{
-    grid-template-columns: repeat(1, 1fr);
+  display: flex;
+  flex-direction: column;
 }
 .footer-bottom {
   flex-direction: column;

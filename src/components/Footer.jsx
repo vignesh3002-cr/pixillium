@@ -32,7 +32,7 @@ export default function Footer() {
         <div className="footer-column">
           <h3>CALL US AT</h3>
           <p>7339100395</p>
-          <h3>MAIL TO</h3>
+          <h3 style={{marginTop:"35px"}}>MAIL TO</h3>
           <p>info@pixellium.co</p>
         </div>
         <div className="footer-column">
