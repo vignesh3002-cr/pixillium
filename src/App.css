@@ -685,7 +685,7 @@ body {
 /*nav bar styling*/
 .navbar {
   background-color: white;
-  padding: 20px 30px;
+  padding: 10px 30px;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -726,7 +726,7 @@ body {
 }
 .nav-button{
   margin-left: 30px;
-  padding-bottom: 12px;
+  margin-bottom: 1px;
 }
 .service-wrapper{
   position: relative;
@@ -761,7 +761,7 @@ body {
   height: 33px;
   width: 33px;
   top: 2px;
-  left: 112px;
+  left: 111px;
   padding-top: 3px;
   padding-bottom: 3px;
   padding-right: 3px;
@@ -770,7 +770,7 @@ body {
   position: absolute;
   height: 17px;
   width: 17px;
-  left: 122px;
+  left: 121px;
   top: 13.2px;
   transition: transform 0.5s ease;
  }
@@ -807,6 +807,7 @@ body {
   margin-bottom: 10px;
   font-weight: 600;
   font-family: Hedvig Letters Serif;
+  text-align: center;
 
 }
 
@@ -818,8 +819,11 @@ body {
   margin-top: 28px;
   letter-spacing: 0;
   line-height: 150%;
+  text-align: center;
 }
-
+.contact-form{
+  margin-top: 20px;
+}
 form {
   width: 100%;
   margin-top: 48px;
@@ -858,7 +862,7 @@ input,select {
 .nav-child{
   color:rgba(57, 57, 57, 0.8);
   transition: color 0.5s ease;
-  padding-bottom: 12px ;
+  padding:10px 0px;
 }
 input:hover{
   border: black 2px solid;
@@ -977,6 +981,7 @@ select:hover{
   }
   .contact-form{
     order: 1;
+    margin-top: 40px;
   }
   .form-grid {
     grid-template-columns: 1fr;
@@ -1020,7 +1025,7 @@ select:hover{
   margin: 0;
   vertical-align: middle;
   position: relative;
-  height: 39px;
+  height: 52px;
   display: flex;
   justify-content: space-between;
 }
@@ -1034,7 +1039,7 @@ select:hover{
   padding-bottom: 7.5px;
   padding-left: 14px;
   padding-right: 46px;
-  bottom: 0px;
+  bottom: 5px;
 }
 .mobile-circle{
   background-color: white;
@@ -1042,8 +1047,8 @@ select:hover{
   border-radius: 1000px;
   height: 34px;
   width: 34px;
-  top: 2px;
-  right: 2px;
+  top: 5px;
+  right: 8px;
   padding-top: 3px;
   padding-bottom: 3px;
   padding-right: 3px;
@@ -1056,8 +1061,8 @@ select:hover{
   position: absolute;
   height: 17px;
   width: 17px;
-  right: 8px;
-  top: 13px;
+  right: 13px;
+  top: 16px;
   transition: transform 0.5s ease;
 }
 .mobile-button{
@@ -1104,12 +1109,14 @@ select:hover{
 .services p{
   margin-top: 5px;
   max-width: 309px;
+  min-width: 200px;
 }
 
 .service_content{
-  max-width:1700px;
-  padding:30px 82px;
-  margin-top: 10px;
+  max-width:1920px;
+  min-width:0px;
+  padding:30px 108px;
+  margin-top: 1px;
 }
 .service_content1 h2{
   max-width: 360px;

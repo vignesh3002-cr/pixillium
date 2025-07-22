@@ -24,7 +24,7 @@ function Contacts(){
     <nav className="nav-container">
       <div class="nav-links">
         <div className="nav-child">About</div>
-        <div className="nav-service-container nav-child" onMouseEnter={()=>setService(true)}  onMouseLeave={()=>setService(false)}>
+        <div className="nav-service-container nav-child" onMouseEnter={()=>setService(true)} onMouseLeave={()=>setService(false)} >
           <div className="nav-service" style={{color:isService?"black":"rgba(57, 57, 57, 0.8)"}}>
              Service 
              <div className={`arrow-icon ${isService? 'rotate-up' : ''}`}><span ><img src="../dw_arrow.png"></img></span></div>
