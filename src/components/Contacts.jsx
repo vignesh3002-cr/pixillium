@@ -79,10 +79,12 @@ function Contacts(){
             <div className="circle">
 
             </div>
-          
+
             <span className="right-arrow"><img src="../right-arrow.png" /></span>
           </div>
-          {ismobile_menu? (<nav className="drop-cancel" ><img src="../cancel.png" className="tabler_menu_cancel" onClick={()=>setMobileMenu(false)} />
+          {ismobile_menu? (<nav className="drop-cancel" ><svg className="tabler_menu_cancel" onClick={()=>setMobileMenu(false)} width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8 24L16 16L24 24M24 8L15.9985 16L8 8" stroke="#393939" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
             
   {ismobile_menu && (
     <div className="mobile_Container" onMouseLeave={()=>setMobileMenu(false)}>
@@ -110,8 +112,9 @@ function Contacts(){
               <div className="mobile-circle">
 
               </div>
-          
-              <span className="mobile-right-arrow"><img src="../right-arrow.png" /></span>
+                <svg className="mobile-right-arrow" width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M10.625 13.9583L9.61558 12.9667L12.8739 9.70832H1.41663V8.29166H12.8739L9.63329 5.03332L10.625 4.04166L15.5833 8.99999L10.625 13.9583Z" fill="#141414" />
+</svg>
             </div>
           </div>
           </div>

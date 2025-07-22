@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg';
 import './App.css';
 import Contacts from './components/Contacts';
 import Footer from './components/Footer';
+import LandingPage from './components/LandingPage';
 import { Contact } from 'lucide-react';
 
 function App() {
@@ -43,6 +44,7 @@ function App() {
     
     }
     <Footer />
+    <LandingPage />
     
     </>
     
