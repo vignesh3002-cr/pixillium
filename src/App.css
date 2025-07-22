@@ -706,7 +706,6 @@ body {
   padding: 15px;
   left: 20px;
   position: fixed;
-  margin-bottom: 12px;
 }
 .nav-links {
   list-style: none;
@@ -721,9 +720,7 @@ body {
   top: 3px;
   left: 2px;
 }
-.service_container{
-  margin-top: 10px;
-}
+
 .nav-button{
   margin-left: 30px;
   margin-bottom: 1px;
@@ -880,7 +877,7 @@ select:hover{
 .contact-sidebar{
   display: none;
 }
-@media (min-width:830px) and (max-width:1030px){
+@media (min-width:830px) and (max-width:1031px){
  .contact-form h2{
   font-size: 36px;
   text-align: center;
@@ -909,7 +906,7 @@ select:hover{
   padding: 30px;
   width: 1400px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  z-index: 100;
+
   border-radius: 8px;
 
 }
