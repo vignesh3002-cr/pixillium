@@ -106,11 +106,13 @@ function Contacts(){
           <div class="mobile-enquiry-btn">
 
             <div><button>Get in touch</button></div>
-            <div className="circle">
+            <div className="mobile-button-part2">
+              <div className="mobile-circle">
 
-            </div>
+              </div>
           
-            <span className="right-arrow"><img src="../right-arrow.png" /></span>
+              <span className="mobile-right-arrow"><img src="../right-arrow.png" /></span>
+            </div>
           </div>
           </div>
       </div>

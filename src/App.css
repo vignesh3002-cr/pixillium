@@ -1010,8 +1010,8 @@ select:hover{
   justify-content: space-between;
 }
 .mobile-enquiry-btn{
-  max-width: 830px;
-  padding: 20px;
+  width: 100%;
+  padding: 20px 0px;
   border: 1px solid black;
   background:#393939;
   cursor: pointer;
@@ -1021,9 +1021,10 @@ select:hover{
   vertical-align: middle;
   position: relative;
   height: 39px;
+  display: flex;
+  justify-content: space-between;
 }
 .mobile-enquiry-btn button{
-  width: 100%;
   position: absolute; 
   font-weight: 500;
   border-radius: 10px;
@@ -1034,26 +1035,29 @@ select:hover{
   padding-left: 14px;
   padding-right: 46px;
   bottom: 0px;
-  right: 88px;
 }
-.circle{
+.mobile-circle{
   background-color: white;
   position: absolute;
   border-radius: 1000px;
   height: 34px;
   width: 34px;
-  top: 3px;
-  left: 316px;
+  top: 2px;
+  right: 2px;
   padding-top: 3px;
   padding-bottom: 3px;
   padding-right: 3px;
 }
-.right-arrow{
+.mobile-button-part2{
+  position: relative;
+  bottom: 18.5px;
+}
+.mobile-right-arrow{
   position: absolute;
   height: 17px;
   width: 17px;
-  left: 326px;
-  top: 14px;
+  right: 8px;
+  top: 13px;
   transition: transform 0.5s ease;
 }
 .mobile-button{
@@ -1083,7 +1087,7 @@ select:hover{
 .arrow-icon img{ 
   display: none;
 }
-.mobile-enquiry-btn:hover .right-arrow{
+.mobile-enquiry-btn:hover .mobile-right-arrow{
   transform: rotate(-30deg);
 }
 .mobile-enquiry-btn:hover{
