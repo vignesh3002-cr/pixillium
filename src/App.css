@@ -768,7 +768,7 @@ body {
   height: 17px;
   width: 17px;
   left: 121px;
-  top: 13.2px;
+  top: 10px;
   transition: transform 0.5s ease;
  }
  .enquiry-btn:hover .right-arrow{
@@ -1074,8 +1074,8 @@ select:hover{
 
 .tabler_menu_cancel{
   cursor: pointer;
-  width: 20px;
-  height: 20px;
+  width: 26px;
+  height: 26px;
 }
 .contact-sidebar {
     height: 516px;
@@ -1378,7 +1378,6 @@ h1 {
 
 p {
   font-size: 1rem;
-  color: #d1d1d1;
   margin-bottom: 2rem;
   max-width: 500px;
 }
