@@ -3,9 +3,11 @@ import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
 import './App.css';
 import Contacts from './components/Contacts';
+import Header from './components/Header';
 import Footer from './components/Footer';
 import LandingPage from './components/LandingPage';
 import { Contact } from 'lucide-react';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
@@ -39,12 +41,17 @@ function App() {
       </div>
     </div>
     */}
-    {
-    <Contacts />
     
-    }
-    <Footer />
-    <LandingPage />
+    
+    
+
+    
+    <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<LandingPage />}></Route>
+      <Route path='/contact' element={<Contacts />}></Route>
+    </Routes>
+    </BrowserRouter>
     
     </>
     
