@@ -1191,6 +1191,8 @@ button{
   max-width: 743px;
   max-height: 311px;
   margin: 0 auto;
+  object-fit: cover;
+  z-index: 1;
 }
 
 
@@ -1279,6 +1281,7 @@ button{
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  z-index: 2;
 }
 .social-logo{
   width: 32px;
@@ -1370,7 +1373,7 @@ button{
 
 
 .hero-section {
-  padding: 70px 70px;
+  padding: 70px 0px;
 }
 
 .hero-container {
@@ -1488,6 +1491,237 @@ button{
   border-radius: 16px;
   min-height: 580px;
 }
+
+.hero-container-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  max-width: 1300px;
+  padding: 65px 70px;
+  margin-left: 30px;
+}
+.aboutUs-image{
+  width: 100%;
+  background-color: #000; 
+}
+
+.aboutUs-text h4{
+  max-width: 706px;
+  height: 30px;
+  font: inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -1.9%;
+  margin-bottom: 12px;
+}
+.aboutUs-text h1{
+  max-width:699px;
+  width: 100%;
+  font-size: clamp(30px, 4vw, 48px);
+  font-family: Hedvig Letters Serif;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: -1px;
+  margin-bottom: 52px;
+}
+.aboutUs-text p{
+  max-width: 643px;
+}
+.hero-section-3{
+  padding: 90px 70px;
+}
+.hero-container-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 44px;
+}
+.service-DM{
+  padding: 0px 20px;
+  padding-top: 35px;
+  background-color: #000;
+  max-width: 830px;
+  font-size: 0;
+  line-height: 0;
+  border-radius: 10px; 
+}
+.service-DM h2{
+  font: inter;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+.service-DM p{
+  max-width: 830px;
+  font: inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -1.9%;
+  margin-bottom: 33px;
+  color: #FFFFFF;
+}
+.service-DM img{
+  width: 100%;
+  height: 604px;
+  height: auto;
+  object-fit: contain;
+}
+.Our-services{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Our-services h4{
+  text-align: center;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -1.9%;
+  margin-bottom: 12px;
+}
+.Our-services h1{
+  max-width:769px;
+  text-align: center;
+  font-family: Hedvig Letters Serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -1px;
+  margin-bottom: 136px;
+}
+.service-container-2{
+  max-width:710px;
+
+}
+.service-SM{
+
+  background: linear-gradient(135deg, #ffffff 30%, #ffe6f0 100%);
+
+
+}
+.service-SM img{
+  position: absolute;
+  width: clamp(200px, 60%, 650px);
+  height: auto;
+  right: 0;
+  bottom:0;
+ 
+}
+.service-GM img{
+  position: absolute;
+  width: clamp(200px, 60%, 650px);
+  height: auto;
+  right: 0;
+  bottom:0;
+}
+.service-DC img{
+  position: absolute;
+  width: clamp(200px, 45%, 400px);
+  height: auto;
+  right: 0;
+  bottom:0;
+}
+.service-SP img{
+  position: absolute;
+  width: clamp(150px, 45%, 400px);
+  height: auto;
+  right: 0;
+  bottom:0;
+}
+.oss{
+  width: 710px;
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px 10px;
+  height: 356px;
+  position: relative;
+}
+.oss h2{
+  font-weight: 400;
+  font: inter;
+  font-size: clamp(14px,4vw, 28px);
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  margin-bottom: 18px;
+}
+.oss p{
+  max-width: 465px;
+  font: inter;
+  font-weight: 500;
+  font-size: clamp(12px,3vw,20px);
+  line-height: 150%;
+  letter-spacing: -1.9%;
+}
+.hero-container-4{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 44px;
+  margin-top: 136px;
+}
+.hero-container-5{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 44px;
+  margin-top: 136px;
+}
+.BI-img{
+  width: 100%;
+  height: 604px;
+  height: auto;
+  object-fit: contain;
+}
+.BI-img2{
+  position: absolute;
+  bottom:18%;
+  width: 60%;
+  max-height: 371px;
+  left: 14%;
+}
+
+.BI-img3 {
+  position: absolute;
+  top: 75.8%;
+  left: 13.5%;
+  width: 20%;
+}
+
+.service-BI{
+  padding: 0px 20px;
+  padding-top: 35px;
+  background-color: #000;
+  max-width: 830px;
+  font-size: 0;
+  line-height: 0;
+  border-radius: 10px; 
+  padding-bottom: 35px;
+  position: relative;
+}
+.service-BI h2{
+  font: inter;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 18px;
+}
+.service-BI p{
+  max-width: 830px;
+  font: inter;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -1.9%;
+  margin-bottom: 33px;
+  color: #FFFFFF;
+}
 @media(min-width:830px) and (max-width:1030px){
   .hero-text h1 {
     font-size: 36px;
@@ -1496,6 +1730,35 @@ button{
     font-size: 16px;
     max-width:380px ;
   }
+  .hero-container-2{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    margin-left: 0px;
+  }
+  .aboutUs-text{
+    order: 1;
+  }
+  .aboutUs-image{
+    order: 2;
+    height: 466px;
+  }
+  .aboutUs-text h4{
+    text-align: center;
+  }
+  .aboutUs-text h1{
+    text-align: center;
+  }
+  .aboutUs-text p{
+    text-align: center;
+  }
+  .oss{
+    height: 300px;
+  }
+  .service-DC img {
+    width: clamp(150px, 40%, 400px);
+  }
 }
 @media (min-width:320px) and (max-width: 830px) {
   .hero-section{
@@ -1503,13 +1766,87 @@ button{
   }
   .hero-container {
     flex-direction: column;
-    padding: 2rem;
+    padding: 1.5rem;
   }
   .hero-text h1 {
     font-size: 30px;
   } 
   .hero-text p{
     font-size: 16px;
+  }
+   .hero-container-2{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    align-items: center;
+    margin-left: 0px;
+    padding: 10px 30px;
+  }
+  .aboutUs-text{
+    order: 1;
+  }
+  .aboutUs-image{
+    order: 2;
+    height: 466px;
+    max-width:900px ;
+  }
+  .aboutUs-text h4{
+    text-align: center;
+  }
+  .aboutUs-text h1{
+    text-align: center;
+  }
+  .aboutUs-text p{
+    text-align: center;
+  }
+  .hero-section-3{
+    padding: 70px 40px;
+  }
+  .hero-container-3{
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .hero-container-4{
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+  .service-DM{
+    border-radius: 10px;
+  }
+  .service-DM img {
+    display: none;
+  }
+  .service-DM h2{
+    font-size: 16px;
+    text-align: center;
+  }
+  .service-DM p{
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 35px;
+  }
+  .Our-services h1{
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  .oss{
+    height: 240px;
+    margin-bottom: 30px;
+  }
+  .service-SM img{
+    width: clamp(160px, 40%, 650px);
+  }
+  .service-GM img{
+    width: clamp(160px, 40%, 650px);
+  }
+  .service-DC img{
+    width: clamp(130px, 28%, 400px);
+  }
+  .service-SP img{
+    width: clamp(150px, 28%, 400px);
+  }
+  .oss h2{
+    font-weight: 500;
   }
   
 }

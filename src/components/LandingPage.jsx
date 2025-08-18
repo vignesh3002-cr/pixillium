@@ -50,6 +50,136 @@ export default function LandingPage(){
       </div>
 
       <div class="hero-image"></div>
+
+    </div>
+  </section>
+  <section className="hero-section-2">
+    <div className="hero-container-2">
+      <div class="aboutUs-image">
+
+      </div>  
+      <div className="aboutUs-text">
+        <h4>About Us</h4>
+        <h1>Creative design Studio driven by innovation and purpose</h1>
+        <p>Our Creative Journey Pixellium began with a simple mission, to bring stories to life through powerful design and technology. Our team of passionate designers, developers, and cybersecurity experts work together to elevate your brand through pixel-perfect visuals and seamless digital solutions.</p>
+      </div>
+    </div>
+  </section>
+  <section className="hero-section-3">
+    <div className="Our-services">
+        <h4>Our Services</h4>
+        <h1>We blend creativity & strategy to craft impactful designs</h1>
+    </div>
+
+    <div className="hero-container-3">
+      <div className="service-container-1">
+        <div className="service-DM os-1">
+            <h2>Digital Marketing</h2>
+            <p>Creating visual styles tht makes companies stand out  in their market with unique character and style</p>
+            <img src="../dm-1.png"></img>
+        </div>
+        <div className="os-2">
+
+        </div>
+      </div>
+      <div className="service-container-2">
+        <div className="service-SM oss">
+            <h2>Social Media Marketing</h2>
+            <p>From Designs to Development, We bring concept to life online creating apps, websites Saas Products and many more.</p>
+            <img src="../SM-img.png"/>
+        </div>
+        <div className="service-GM oss">
+          <h2>Google & Meta Ads</h2>
+          <p>We offer SEO services to increase your website visibility, improve search rankings and attract more customers</p>
+          <img src="../GM-img.png"/>
+        </div>
+        <div className="service-DC oss">
+          <h2>Digital Campaign</h2>
+          <p>From Designs to Development, We bring concept to life online creating apps, websites Saas Products and many more.</p>
+          <img src="../DC-img.png" />
+        </div>
+        <div className="service-SP oss">
+          <h2>Stratergic Planning</h2>
+          <p>From Designs to Development, We bring concept to life online creating apps, websites Saas Products and many more.</p>
+          <img src="../SP-img.png" />
+        </div>
+      </div>
+
+    </div>
+        
+    <div className="hero-container-4">      
+      <div className="service-container-2">
+        <div className="service-SM oss">
+            <h2>Website Design</h2>
+            <p>From Designs to Development, We bring concept to life online creating apps, websites Saas Products and many more.</p>
+            <img src="../WD-img.png"/>
+        </div>
+        <div className="service-GM oss">
+          <h2>App Design</h2>
+          <p>We offer SEO services to increase your website visibility, improve search rankings and attract more customers.</p>
+          <img src="../AD-img.png"/>
+        </div>
+        <div className="service-DC oss">
+          <h2>SAAS Product Design</h2>
+          <p>We offer SEO services to increase your website visibility, improve search rankings and attract more customers.</p>
+          <img src="../SPD-img.png" />
+        </div>
+        <div className="service-SP oss">
+          <h2>Search Engine optimisation</h2>
+          <p>We offer SEO services to increase your website visibility, improve search rankings and attract more customers</p>
+          <img src="../SEO-img.png" />
+        </div>
+      </div>
+      <div className="service-container-1">
+        <div className="service-DM os-1">
+            <h2>Design & Development</h2>
+            <p>Creating visual styles tht makes companies stand out  in their market with unique character and style</p>
+            <img src="../DD-img.png"></img>
+        </div>
+        <div className="os-2">
+
+        </div>
+      </div>
+ 
+
+    </div>
+    
+    <div className="hero-container-5">
+      <div className="service-container-1">
+        <div className="service-BI os-1">
+            <h2>Branding & Identity</h2>
+            <p>Creating visual styles tht makes companies stand out  in their market with unique character and style</p>
+            <img src="../BI-img.png" className="BI-img"></img>
+            <img src="../BI-2.png" className="BI-img2" />
+            <img src="../BI-3.png" className="BI-img3" />
+        </div>
+        <div className="os-2">
+
+        </div>
+      </div>
+      <div className="service-container-2">
+        <div className="service-SM oss">
+            <h2>Brand Guidelines</h2>
+            <p>From Designs to Development, We bring concept to life online creating apps, websites Saas Products and many more.</p>
+            <img src="../SM-img.png"/>
+        </div>
+        <div className="service-GM oss">
+          <h2>Google & Meta Ads</h2>
+          <p>We offer SEO services to increase your website visibility, improve search rankings and attract more customers</p>
+          <img src="../GM-img.png"/>
+        </div>
+        <div className="service-DC oss">
+          <h2>Digital Campaign</h2>
+          <p>From Designs to Development, We bring concept to life online creating apps, websites Saas Products and many more.</p>
+          <img src="../DC-img.png" />
+        </div>
+        <div className="service-SP oss">
+          <h2>Stratergic Planning</h2>
+          <p>From Designs to Development, We bring concept to life online creating apps, websites Saas Products and many more.</p>
+          <img src="../SP-img.png" />
+        </div>
+      </div>
+
     </div>
   </section>
   <Footer />

@@ -11,7 +11,7 @@ export default function Footer() {
     
     <footer className="footer">
      <div className='footer-up'>
-        <video className="responsive-video" autoPlay muted loop>
+        <video className="responsive-video" autoPlay muted loop playsinline>
           <source src="../service-vedio2.mp4" type="video/mp4" />
         </video>
         <div>
