@@ -1,8 +1,11 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import React  from "react";
 import Header from "./Header";
 import Footer from "./Footer";
 function Contacts(){
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   const [isDiv,setDiv]=useState(true);
   const handleclick=()=>{
     setDiv(false);

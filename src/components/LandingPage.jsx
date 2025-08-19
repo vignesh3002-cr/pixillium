@@ -49,14 +49,16 @@ export default function LandingPage(){
         </div>
       </div>
 
-      <div class="hero-image"></div>
+      <div class="hero-image">
+        <img src="../Service-img.png"/>
+      </div>
 
     </div>
   </section>
   <section className="hero-section-2">
     <div className="hero-container-2">
       <div class="aboutUs-image">
-
+        <img src="Service2-img.png" />
       </div>  
       <div className="aboutUs-text">
         <h4>About Us</h4>
@@ -144,43 +146,6 @@ export default function LandingPage(){
 
     </div>
     
-    <div className="hero-container-5">
-      <div className="service-container-1">
-        <div className="service-BI os-1">
-            <h2>Branding & Identity</h2>
-            <p>Creating visual styles tht makes companies stand out  in their market with unique character and style</p>
-            <img src="../BI-img.png" className="BI-img"></img>
-            <img src="../BI-2.png" className="BI-img2" />
-            <img src="../BI-3.png" className="BI-img3" />
-        </div>
-        <div className="os-2">
-
-        </div>
-      </div>
-      <div className="service-container-2">
-        <div className="service-SM oss">
-            <h2>Brand Guidelines</h2>
-            <p>From Designs to Development, We bring concept to life online creating apps, websites Saas Products and many more.</p>
-            <img src="../SM-img.png"/>
-        </div>
-        <div className="service-GM oss">
-          <h2>Google & Meta Ads</h2>
-          <p>We offer SEO services to increase your website visibility, improve search rankings and attract more customers</p>
-          <img src="../GM-img.png"/>
-        </div>
-        <div className="service-DC oss">
-          <h2>Digital Campaign</h2>
-          <p>From Designs to Development, We bring concept to life online creating apps, websites Saas Products and many more.</p>
-          <img src="../DC-img.png" />
-        </div>
-        <div className="service-SP oss">
-          <h2>Stratergic Planning</h2>
-          <p>From Designs to Development, We bring concept to life online creating apps, websites Saas Products and many more.</p>
-          <img src="../SP-img.png" />
-        </div>
-      </div>
-
-    </div>
   </section>
   <Footer />
   </>

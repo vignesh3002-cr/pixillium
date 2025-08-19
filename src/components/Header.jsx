@@ -1,7 +1,10 @@
 import React from "react";
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { useNavigate } from "react-router-dom";
  function Header({isDiv,setDiv}){
+      useEffect(()=>{
+        window.scrollTo({top:0, behavior:"smooth"})
+      })
       const navigate=useNavigate();
       const GoToHome=()=>{
         navigate('/');
@@ -80,7 +83,7 @@ import { useNavigate } from "react-router-dom";
           
         <div className="nav-button nav-child-button">
 
-          <div class="enquiry-btn" onClick={GoToContact}>
+          <div className="enquiry-btn" onClick={()=>{GoToContact();document.getElementsByClassName('navbar')[0]?.scrollIntoView({behavior:'smooth'})}}>
 
             <div><button>Get in touch</button></div>
             <div className="circle">
