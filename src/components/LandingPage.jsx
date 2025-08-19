@@ -18,7 +18,7 @@ export default function LandingPage(){
     <section class="hero-section" onClick={handleclick}>
     <div class="hero-container">
       <div class="hero-text">
-        <div class="rating">
+        <div className="rating">
           <span class="stars">★★★★★</span>
           <span class="rating-text">Rated 4.9/5</span>
         </div>
@@ -31,9 +31,9 @@ export default function LandingPage(){
           your ideas into impactful digital realities.
         </p>
 
-        <div class="hero-buttons">
+        <div className="hero-buttons">
           
-          <div class=" landing-enquiry-btn">
+          <div className=" landing-enquiry-btn">
 
             <div onClick={GoToContact}><button>Get in touch</button></div>
             <div className="circle">
@@ -45,7 +45,7 @@ export default function LandingPage(){
 </svg>
 </span>
           </div>
-          <button class="btn secondary">What we do</button>
+          <button className="btn secondary">What we do</button>
         </div>
       </div>
 
@@ -57,7 +57,7 @@ export default function LandingPage(){
   </section>
   <section className="hero-section-2">
     <div className="hero-container-2">
-      <div class="aboutUs-image">
+      <div className="aboutUs-image">
         <img src="Service2-img.png" />
       </div>  
       <div className="aboutUs-text">
