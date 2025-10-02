@@ -24,7 +24,7 @@ function Contacts(){
   const handleSubmit=async(e)=>{
     e.preventDefault();
     try{
-      const res=await fetch("https://n8n-render-sz2l.onrender.com/webhook/form-submit",{
+      const res=await fetch("http://localhost:5678/webhook-test/form-submit",{
         method:"POST",
         headers:{
           "Content-Type":"application/json"
