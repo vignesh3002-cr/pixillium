@@ -1482,7 +1482,7 @@ button{
 }
 
 .hero-image {
-  flex: 1;
+  height: 328px;
   border-radius: 16px;
   display: flex;
 }
@@ -1723,7 +1723,9 @@ button{
   }
   .hero-text p{
     font-size: 16px;
-    max-width:380px ;
+  }
+  .hero-image{
+    height: 294px;
   }
 
   .hero-container-2{
@@ -1769,6 +1771,9 @@ button{
   } 
   .hero-text p{
     font-size: 16px;
+  }
+  .hero-image{
+    display: none;
   }
   .hero-buttons{
     flex-direction: column;
